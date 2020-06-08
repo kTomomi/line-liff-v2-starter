@@ -5,7 +5,7 @@ backgroundColor: 'rgb(238,238,238)',
       
 window.onload = function() {
     canvas.setAttribute('width', $('.container').width());
-    canvas.setAttribute('height', window.innerHeight - $('#btn').outerHeight() - 10);
+    canvas.setAttribute('height', window.innerHeight - $('#shareTargetPicker').outerHeight() - 10);
     signaturePad.clear();
 
     const useNodeJS = true;   // if you are not using a node server, set this value to false
